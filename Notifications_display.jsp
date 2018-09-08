@@ -22,7 +22,7 @@
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
 
-                    String url = "jdbc:mysql://sql12.freemysqlhosting.net:3306/id6992866_akhil";
+                    String url = "jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12255801";
                     con = DriverManager.getConnection(url, "sql12255801", "3JPT57hvjn");
                 } catch (Exception e) {
                     System.out.println(e);
