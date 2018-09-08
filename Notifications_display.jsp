@@ -22,8 +22,8 @@
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
 
-                    String url = "jdbc:mysql://localhost:3306/id6992866_akhil";
-                    con = DriverManager.getConnection(url, "id6992866_akhil", "akhil504");
+                    String url = "jdbc:mysql://sql12.freemysqlhosting.net:3306/id6992866_akhil";
+                    con = DriverManager.getConnection(url, "sql12255801", "3JPT57hvjn");
                 } catch (Exception e) {
                     System.out.println(e);
                 }
